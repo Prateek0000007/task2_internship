@@ -141,3 +141,43 @@ https://mxtoolbox.com/EmailHeaders.aspx
 - **Not a phishing attempt**.
 - Marked as spam **due to Gmail heuristics**, not due to malicious behavior.
 - Legitimate newsletter from Visme, authenticated and professionally written.
+  ----
+  Key learnings:
+  🔐 1. The Three Pillars of Email Authentication
+Protocol	Purpose	What It Checks
+SPF (Sender Policy Framework)	Verifies sender’s IP address	Confirms if the sending server is authorized by the domain
+DKIM (DomainKeys Identified Mail)	Verifies message integrity	Uses digital signature to check if email was tampered with
+DMARC (Domain-based Message Authentication, Reporting & Conformance)	Aligns SPF/DKIM with sender domain	Gives domain owners control over how to handle unauthenticated emails
+
+🔎 2. How to Spot a Phishing Email (Sample 1)
+Suspicious sender address (e.g., x@webnotifications[.]net)
+
+Urgent language and threats like suspension in 48 hours
+
+Deceptive links/buttons ("Review Details") without revealing real URLs
+
+Lack of personalization, vague branding
+
+Email fails DKIM authentication, indicating spoofing is likely
+
+🛑 This email was not from a verified sender and triggered multiple red flags.
+
+✅ 3. Not All Spam is Phishing (Sample 2)
+Sample 2 was from updates@visme.co, a legitimate sender.
+
+All authentication checks (SPF, DKIM, DMARC) passed
+
+Content was promotional, not malicious
+
+Gmail flagged it as spam based on user reports or marketing content, not threat detection
+
+📥 This is an example of false-positive spam, not phishing.
+
+🧠 Final Takeaways
+Always check full headers before assuming an email is phishing.
+
+Use tools like MXToolbox or Gmail’s "Show Original" for reliable analysis.
+
+Even if SPF and DKIM pass, context and content matter — phishing often relies on social engineering.
+
+
