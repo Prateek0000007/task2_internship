@@ -67,7 +67,7 @@ This email contains several phishing signs:
 
 Screenshots are stored in the `screenshots/` folder:
 -------------------
- The three main principles of email authentication are:
+ **The three main principles of email authentication are:
 
 SPF (Sender Policy Framework):
 Verifies if the sender’s IP is authorized to send mail for the domain.
@@ -76,7 +76,8 @@ DKIM (DomainKeys Identified Mail):
 Uses a digital signature to check if the email content was altered in transit.
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance):
-Uses SPF and DKIM results to decide whether to deliver, reject, or quarantine the email.
+Uses SPF and DKIM results to decide whether to deliver, reject, or quarantine the email.**
+
 --------------------
 Phishing Email Analysis – Sample 2 (Spam-marked Marketing Email)
 
