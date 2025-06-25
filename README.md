@@ -106,6 +106,7 @@ The full email header was obtained by:
 |------|---------|
 | **Gmail (Show Original)** | To extract the raw email header |
 | **MXToolbox - Email Header Analyzer** | To test SPF, DKIM, and DMARC results |
+https://mxtoolbox.com/EmailHeaders.aspx
 | **MXToolbox - Deliverability Tool** | To verify DKIM validity when it failed in the analyzer |
 | **Gmail Spam Explanation** | To understand Gmail’s reason for marking as spam |
 
